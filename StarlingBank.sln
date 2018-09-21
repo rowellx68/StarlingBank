@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2026
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarlingBank", "StarlingBank\StarlingBank.csproj", "{9044593E-C19A-479A-A011-603E6D6D44CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StarlingBank", "StarlingBank\StarlingBank.csproj", "{9044593E-C19A-479A-A011-603E6D6D44CF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{D7396B59-0C59-4FF4-8002-9B1F44C243AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarlingBank.UnitTests", "tests\StarlingBank.UnitTests\StarlingBank.UnitTests.csproj", "{38A5B107-0E2F-4F73-A90A-EB8BBDF50294}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +19,16 @@ Global
 		{9044593E-C19A-479A-A011-603E6D6D44CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9044593E-C19A-479A-A011-603E6D6D44CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9044593E-C19A-479A-A011-603E6D6D44CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38A5B107-0E2F-4F73-A90A-EB8BBDF50294}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38A5B107-0E2F-4F73-A90A-EB8BBDF50294}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38A5B107-0E2F-4F73-A90A-EB8BBDF50294}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38A5B107-0E2F-4F73-A90A-EB8BBDF50294}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{38A5B107-0E2F-4F73-A90A-EB8BBDF50294} = {D7396B59-0C59-4FF4-8002-9B1F44C243AC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {552B3E62-DA4C-4A2E-B6DA-960C87E48DE4}
