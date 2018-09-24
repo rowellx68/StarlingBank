@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace StarlingBank.Webhook
+namespace StarlingBank.Entities.Webhook
 {
     /// <summary>
     /// Starling Bank: payload content.
